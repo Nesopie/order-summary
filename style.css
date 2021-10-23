@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;800&display=swap');
+
+body {
+    font-family: 'Red Hat Display';
+    margin: 0;
+}
+
+.cardContainer {
+    display: flex;
+    background: url("./images/pattern-background-desktop.svg") top no-repeat;
+    background-color: #dfe7ff;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 75%;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.image img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.orderSummary {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.orderSummaryHeading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.orderSummaryDesc {
+    line-height: 1.6;
+    margin: 0 auto;
+    width: 70%;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    font-weight: 300;
+}
+
+.annualPlan {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #f7f8ff;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.planOverview {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.planDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.planIcon {
+    height: 48px;
+}
+
+.planText {
+    font-weight: 900;
+}
+
+.planChange {
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #382ae1;
+}
+
+.planChange:hover {
+    color: #766df1;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    font-weight: 800;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.payment {
+    padding: 15px;
+    background-color: #382ae1;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+}
+
+.payment:hover {
+    background-color: #766df1;
+    cursor: pointer;
+    box-shadow: 0px 8px 6px -12px black;
+}
+
+.cancel {
+    color: black;
+    background-color: white;
+    border: 0;
+}
+
+.cancel:hover {
+    color: #565656;
+    cursor: pointer;
+}
