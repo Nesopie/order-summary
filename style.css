@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 450px;
-    height: 75%;
+    height: 620px;
     margin: 0 auto;
     background-color: #fff;
     font-size: 16px;
@@ -133,4 +133,25 @@ button {
 .cancel:hover {
     color: #565656;
     cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+    .image img {
+        width: 360px;
+    }
+    .card {
+        width: 360px;
+        height: 560px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .image img {
+        width: 300px;
+    }
+
+    .card {
+        width: 300px;
+        height: 500px;
+    }
 }
